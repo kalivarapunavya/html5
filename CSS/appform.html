@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><div class="container">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application form modifying with css</title>
+    <link rel="stylesheet" href="./appform.css" >
+</head>
+<body>
+    <div class="logo">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.PPNZxcYTwWYm5bvPKn7WugAAAA&pid=Api&P=0&h=180" alt="APSRTC image"height="50" width="50"/></div>
+    <div>
+    <h3 style="color:blue;">ANDHRA PRADESH STATE ROAD TRANSPORT CORPORATION</h3>
+    <br>   
+    <h3>STUDENT BUS PASS APPLICATION UPTO SSC</h3></div>
+    <div class="content">
+    <div class="student">
+        <table>
+            <p style="color:blue;">1.Student Details</p>
+            <tr>
+                <td>
+                    <label for="fullname">1.1 Name*</label>
+                    <input type="text" id="fullname" placeholder="enter full name" name="fname"required minlength="8"/>
+                </td>
+                <td>
+                    <label for="fullname">1.2 Father's/Guardian's Name*:</label>
+                    <input type="text" id="fullname" placeholder="enter full name" name="fname"required minlength="8"/>
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">1.3 Date Of Birth*</label>
+                    <input type="datetime-local"id="dob"name="dob"/>
+                </td>
+                <td>
+                    <label for="gender">1.4 Gender*</label>
+                    <input type="radio"id="gender"name="gender">Female
+                    <input type="radio"id="gender"name="gender">Male
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mbl no.">1.5 Mobile No*</label>
+                    <input type="number"id="mbl no."name="mobile no"/>
+                </td>
+                <td>
+                    <label for="aadhar no.">1.6 AAdhar No</label>
+                    <input type="number"id="aadhar no."name="AAdhar No"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">1.7 Email</label>
+                    <input type=""id="email"name="email" placeholder="enter email id"/>
+                </td>
+                <td>
+                    <label for ="emp child">1.8 Is Employee Children</label>
+                    <input type ="radio" name="Is Employee Children" id="emp child">Yes
+                    <input type="radio"id="emp child" name="Is Employee Children">No
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo">1.9 Photo*</label>
+                    <input type="file"id="photo"name="photo"/>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <div>
+            <table>
+                <p style="color:blue;">2.Residential Address Details</p>
+                <tr>
+                    
+                    <td>
+                        <label  for="dist">2.1 District*</label>
+                        <select name="district" id="dist">
+                        <option value="chittoru">...Select...</option>    
+                        <option value="srikakulam"> srikakulam</option>
+                        <option value="chittoru">chittoor</option>  
+                        <option value="chittoru">vishakapatnam</option>
+                        <option value="chittoru">guntur</option>
+                        <option value="chittoru">parvathipuram</option>
+                        <option value="chittoru">vizianagaram</option>
+                    </td>
+                    
+                    <td>
+                        <label for="mandal">2.2 Mandal*</label>
+                        <select name="mandal" id="mandal">
+                        <option value=""></option>
+                        <option value="srikakulam">srikakulam</option>  
+                        <option value="amadalavasa">amadalavalasa</option>
+                        <option value="ananthapuram">ananthapuram</option>
+                        <option value="anandapuram">anandapuram</option>
+                        <option value="nallapadu">nallapadu</option>
+                    </td>
+                     
+                </tr>
+                <tr>
+                    <td>
+                        <label for="village">2.3 Village</label>
+                        <select name="mandal" id="mandal">
+                            <option value=""></option>
+                            <option value="srikakulam">srikakulam</option>  
+                            <option value="amadalavasa">amadalavalasa</option>
+                            <option value="ananthapuram">ananthapuram</option>
+                            <option value="anandapuram">anandapuram</option>
+                            <option value="nallapadu">nallapadu</option>
+                        
+                    </td>
+                    <td>
+                        <label for="">2.4 Address*</label>
+                        <input type="" id="address" name="address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pc">2.5 Postal Code</label>
+                        <input type="" id="pc" name="pc">
+                    </td>
+                </tr>
+            </table>
+        </div>    
+        <hr>
+        <div>
+           <p style="color:blue;">3.School Details</p> 
+           <table>
+            <tr>
+                <td>
+                <label for="dist">3.1 District*</label>
+                <select name="district" id="dist">
+                    <option value="chittoru">...Select...</option>    
+                    <option value="srikakulam"> srikakulam</option>
+                    <option value="chittoru">chittoor</option>  
+                    <option value="chittoru">vishakapatnam</option>
+                    <option value="chittoru">guntur</option>
+                    <option value="chittoru">parvathipuram</option>
+                    <option value="chittoru">vizianagaram</option>
+                </td>
+                <td>
+                <label for="mandal">3.2 Mandal*</label>
+                <input type="" id="mandal" name="mandal">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="schl name">3.3 School Name*</label>
+                <input type="" id="schl name" name="schl name">
+                </td>
+                <td>
+                <label for="class">3.4 Class*</label>
+                <select name="district" id="dist">
+                    <option value="chittoru">...Select...</option>    
+                    <option value="10">10</option>
+                    <option value="9">9</option>  
+                    <option value="8">8</option>
+                    <option value="7">7</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="ad no.">3.5 Admission No*</label>
+                <input type="" id="ad no." name="ad no.">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="schl add" >3.6 School Address</label>
+                <textarea></textarea>
+                </td>
+            </tr>
+        </table>
+        </div>  
+        <hr>
+        <div>
+            <p style="color:blue;">4.Route Details</p>
+            <table>
+            <tr>
+                <td>
+                    <label for="collect pass" >4.1 At which center<br> you want to collect<br> ID/PASS*</label>
+                    <select name="collect pass" id="collect pass">
+                        <option value=""></option>
+                        <option value="srikakulam">srikakulam</option>  
+                        <option value="amadalavasa">amadalavalasa</option>
+                        <option value="ananthapuram">ananthapuram</option>
+                        <option value="anandapuram">anandapuram</option>
+                        <option value="nallapadu">nallapadu</option>
+                    
+                </td>
+                <td>
+                   <label for="pass type" >4.2 Pass Type*</label>
+                   <select name="pass type" id="pass type">
+                    <option value="">select</option>
+                    <option value="student">student</option>  
+                    <option value="exclusive trips">exclusive trips</option>
+                    <option value="physically challeged">physically challenged bus pass</option>
+                    <option value="journalist">journalist</option>
+                    <option value="N.G.O">N.G.O</option>
+                
+                </td>
+            </tr>
+            </table>
+        </div> 
+        <hr>
+        <div>
+            <p style="color:blue;">5.Mode of Payment & Pass Collection</p>
+            <table>
+                <tr>
+                    <label for="payment mode" >Select Payment Mode</label>
+                    <select name="payment mode" id="payment mode">
+                        <option value="">select payment mode</option>
+                        <option value="onile">online</option>  
+                        <option value="ofline">ofline</option>
+                        <option value="bank">bank</option>
+                        <option value="transaction">transaction</option>
+                        
+                    
+                    
+                </tr>
+                <tr>
+                    <td>
+                    <label for="pass delivery mode" >Select Pass Delivery Mode</label>
+                    <select name="payment mode" id="payment mode">
+                        <option value="">select payment mode</option>
+                        <option value="onile">online</option>  
+                        <option value="ofline">ofline</option>
+                        <option value="bank">bank</option>
+                        <option value="transaction">transaction</option>
+                </td>  
+                </tr>
+            </table>
+        </div> 
+        <br>
+    <fieldset>
+        <input type="submit">
+    </fieldset>
+    <br>
+</div>
+    
+</body>
+</html>    
+
+    
+</body>
+</html>
